@@ -1,0 +1,50 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./AProfilePic.jpg")
+}
+
+.container{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    padding:40px;
+
+
+}
+
+.Profile{
+    width: 200px;
+    border-radius: 100%;
+}
+
+.card{
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    width:30%;
+    height:60%;
+    position: absolute;
+    flex-direction:column;
+}
+
+.CardDetails{
+    display:flex;
+    flex-direction:column;
+    line-height:2em;
+}
+
+.callmebutton{
+    background-color: blanchedalmond;
+    color:black;
+    font-style:bold;
+    border-style: solid;
+    border-color:blanchedalmond;
+    width:100px;
+    height: 50px;
+
+}
